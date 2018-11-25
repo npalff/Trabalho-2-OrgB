@@ -1,0 +1,10 @@
+MUDANCAS PARA newBase:
+NEW_BASE
+CPU:
+	MyIntALU:
+		count = 2 para count = 3
+	My_SIMD_Unit:
+		count = 1 para count = 2
+CACHE:
+	BasicL3Cache:
+		response_latency = 4 para response_latency = 8
