@@ -8,3 +8,5 @@ CPU:
 CACHE:
 	BasicL3Cache:
 		response_latency = 4 para response_latency = 8
+	BasicL1DCache:
+		size = '32kB' para size = '16kB'
